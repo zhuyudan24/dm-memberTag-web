@@ -1,0 +1,26 @@
+.manual-dialog .el-dialog__footer {
+  margin-top: 15px;
+  border-top: 1px solid #DCDFE6;
+}
+.uploading .uploading-progress .el-progress__text {
+  font-size: 12px !important;
+  color: #909399;
+}
+.manualTagEdit-wrap .el-form-item__label {
+  color: #606266;
+}
+.manualTagEdit-wrap .el-textarea__inner {
+  height: 96px;
+  resize: none;
+  box-sizing: border-box;
+}
+.tag-value-wrapper .tag-cell {
+  height: 56px;
+}
+.tag-value-wrapper .tag-head {
+  height: 23px;
+}
+
+.tag-value-wrapper .el-table__empty-block {
+  display: none;
+}

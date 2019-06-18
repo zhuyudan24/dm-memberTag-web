@@ -1,0 +1,30 @@
+.table-header__handle {
+  &.cell {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    padding-right: 0;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+
+    .el-icon-setting {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 60px;
+      height: 100%;
+      font-size: 20px;
+      color: #666;
+      cursor: pointer;
+      background: #eaeaea;
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}

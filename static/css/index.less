@@ -1,0 +1,97 @@
+@import './public.css';
+.arrowico{
+  position: absolute;
+  transition: all .5s;
+  .icoposition(0px,25px);
+}
+.icoposition(@right: right,@top: top){
+  right: @right;
+  top: @top;
+}
+
+.user-form-dialog {
+  /deep/ .el-dialog {
+     min-width: 425px;
+  }
+
+  /*/deep/ .el-dialog__body {
+      padding: 0 20px;
+  }*/
+
+  /deep/ .el-input {
+    width: 260px;
+  }
+}
+.pass-form-dialog {
+  /deep/ .el-dialog {
+     min-width: 425px;
+  }
+
+  /*/deep/ .el-dialog__body {
+      padding: 0 20px;
+  }*/
+}
+
+
+.el-popover {
+  min-width: 100px;
+}
+.icon-transform-nine {
+  transition: transform .3s;
+  transform: rotate(-90deg);
+  color: #c0c4cc;
+}
+
+.line-nowrap {
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0 6px;
+  line-height: 32px;
+  vertical-align: middle;
+}
+
+.line-nowrap .el-tag {
+  margin-right: 4px;
+}
+.el-tag-popover {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.table-light-color {
+  background-color: #f7faff;
+  .btn-prev {
+    background-color: #f7faff;
+  }
+  .btn-next {
+    background-color: #f7faff;
+  }
+  button:disabled {
+    background-color: #f7faff;
+  }
+  li {
+    background-color: #f7faff;
+  }
+}
+
+.cre-dialog {
+  .el-dialog__body {
+    padding: 10px 20px;
+  }
+  .cre-btn {
+    padding-top: 20px;
+    text-align: right;
+  }
+  .tips {
+    text-align: left;
+    font-size: 18px;
+    color: #303133;
+  }
+}
+
+.el-date-editor .el-range-separator {
+  width: 6%;
+}
+
+.el-dialog__footer {
+  border-top: none;
+}
